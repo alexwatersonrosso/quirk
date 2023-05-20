@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile QR Code App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="qr-code"></div>
+  <div id="profile-container">
+    <img id="profile-picture" src="" alt="Profile Picture">
+    <div id="profile-name"></div>
+    <div id="profile-details"></div>
+  </div>
+  <video id="video" playsinline></video>
+  <div id="error-message"></div>
+
+  <script src="qrcode.min.js"></script>
+  <script src="instascan.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
